@@ -6,10 +6,11 @@ def get_tweets_currency(currency_string):
 
     # Fill the X's with the credentials obtained by
     # following the above mentioned procedure.
-    consumer_key = "ppYzHrFU1kNASe9lSwqKK2V5m"
-    consumer_secret = "O3AOhcRQp38tZiDB5kvGNrCR116NVDUZfQGicCmx7LKLMlCyle"
-    access_key = "1100766433267630082-UzcE7froIPyVcf9srPh2uKBs3G4FwO"
-    access_secret = "jRhNmFwdk3CAlR4F9JnwR46D31GmQPv2z0q8sAvvWSl80"
+    # twitter API info has been deleted to maintain security
+    consumer_key = ""
+    consumer_secret = ""
+    access_key = ""
+    access_secret = ""
 
     # Authorization to consumer key and consumer secret
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
